@@ -13,10 +13,6 @@ class Vimeo(CMSPlugin):
         default=settings.CMS_VIMEO_DEFAULT_AUTOPLAY
     )
 
-    width = models.IntegerField(_('width'),
-            default=settings.CMS_VIMEO_DEFAULT_WIDTH)
-    height = models.IntegerField(_('height'),
-            default=settings.CMS_VIMEO_DEFAULT_HEIGHT)
     border = models.BooleanField(_('border'),
             default=settings.CMS_VIMEO_DEFAULT_BORDER)
 

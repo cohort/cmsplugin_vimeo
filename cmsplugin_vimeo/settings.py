@@ -8,10 +8,6 @@ from django.conf import settings
 # Autoplay
 CMS_VIMEO_DEFAULT_AUTOPLAY = getattr(settings, 'CMS_VIMEO_DEFAULT_AUTOPLAY', False)
 
-# Width & Height
-CMS_VIMEO_DEFAULT_WIDTH = getattr(settings, 'CMS_VIMEO_DEFAULT_WIDTH', 425)
-CMS_VIMEO_DEFAULT_HEIGHT = getattr(settings, 'CMS_VIMEO_DEFAULT_HEIGHT', 344)
-
 # Border
 CMS_VIMEO_DEFAULT_BORDER = getattr(settings, 'CMS_VIMEO_DEFAULT_BORDER', False)
 
